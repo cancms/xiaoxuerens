@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Siyue (Sia) Huang
+name: Xiaoxue Ren (任晓雪)
 
 # Username (this should match the folder name)
 authors:
@@ -10,30 +10,30 @@ authors:
 superuser: true
 
 # Role/position
-role: Master
+role: Assistant Professor(ZJU100 Young Professor)
 
 # Organizations/Affiliations
 organizations:
-- name: Keio University — Tokyo, Japan
+- name: School of Software Technology Zhejiang University
 #  url: "https://www.manchester.ac.uk/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: <>
-
+  
 interests:
-- Computational Linguistics
-- Artificial Intelligence
-- Legal Technology
+- Software Engineering
+- Knowledge Graph
+- Blockchain
 
-education:
-  courses:
-  - course: Master of Laws
-    institution: Keio University — Tokyo, Japan
-    year: Sept 2024 - April 2026
-    
-  - course: Bachelor of Arts in Japanese (Major), Minor in Law
-    institution: University of International Business and Economics (UIBE) — Beijing, China 
-    year: Sept 2019 - July 2023
+#education:
+#  courses:
+#  - course: Master of Laws
+#    institution: Keio University — Tokyo, Japan
+#    year: Sept 2024 - April 2026
+#    
+#  - course: Bachelor of Arts in Japanese (Major), Minor in Law
+#    institution: University of International Business and Economics (UIBE) — Beijing, China 
+#    year: Sept 2019 - July 2023
      
 
 # Social/Academic Networking
@@ -43,19 +43,22 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:h.siyue818@gmail.com  # mail
+  link: mailto:xxren@zju.edu.cn  # mail
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/erawijantaript
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.co.uk/citations?user=8VWZGbAAAAAJ&hl=en
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/erawijantari
-- icon: linkedin
+
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=mdoN_woAAAAJ&hl=en
+  
+- icon: github
   icon_pack: fab
-  link: https://www.linkedin.com/in/siyue-huang-a93527341
+  link: https://github.com/xiaoxuerens
+  
+#- icon: linkedin
+#  icon_pack: fab
+#  link: https://www.linkedin.com/in/siyue-huang-a93527341
   
 #- icon: orcid
 #  icon_pack: fab
@@ -79,6 +82,6 @@ email: ""
 
 
 
-I was awarded a Bachelor of Arts in Japanese (with a minor in Law) from the University of International Business and Economics (UIBE), Beijing, in July 2023. Since April 2024, I have been pursuing a Master of Laws (LL.M.) at Keio University, Tokyo, with expected completion in April 2026. My graduate research specializes in corporate law with an interdisciplinary focus on the intersection of legal reasoning, linguistic structures, and intelligent systems.
-With my cross-cultural legal linguistic proficiency in Chinese, Japanese, English, and Korean, I conduct systematic comparative analyses of fundamental differences between common law and civil law systems, particularly in legislative techniques and judicial interpretation. This empirical research using multilingual legal texts has driven my scholarly investigation into Natural Language Processing (NLP) applications for legal workflows.
-To operationalize this interdisciplinary approach, I have developed technical competencies in Python, C#, and computer vision (YOLO), which I applied during research internships at Zhejiang Libiao Robotics (AI-driven automation systems) and the Shanghai Pudong People's Court (computational legal analysis). These experiences demonstrate my commitment to developing technological solutions for emerging challenges at the nexus of law and artificial intelligence.
+I am currently an assistant professor (ZJU100 Young Professor) in the School of Software Technology at Zhejiang University, China. Before joining Zhejiang University, I was a postdoctoral research fellow at the Chinese University of Hong Kong, working with [Prof. Michael R. Lyu](https://www.cse.cuhk.edu.hk/lyu/home). I obtained my Ph.D degree in Computer Science and Technology from Zhejiang University, where I was very fortunate to work under the supervision of [Prof. Jianling Sun](https://person.zju.edu.cn/en/sunjl). During my PhD period, I also had an unforgettable visiting experience at the Australian National University under the supervision of [Prof. Zhenchang Xing](https://cecc.anu.edu.au/people/zhenchang-xing). My research interests include Software Engineering, Knowledge Graph and Blockchain.
+
+**I am currently recruiting Masters and PhD students for the September 2026 intake, focusing on the application of artificial intelligence in software engineering (AI4SE). Interested candidates who are keen on academic research please contact me via email.**
