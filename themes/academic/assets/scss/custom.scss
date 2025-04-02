@@ -10,3 +10,29 @@
 .block-language-icon {
   color: #2962ff;
 }
+
+
+.news-list-wrap{
+
+  .time-line-content-wrap {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .news-line-content, .circle-wrap {
+    padding: 1rem 0 0 0;
+  }
+  
+    .circle-dot {
+      border: 1px solid #2962ff;
+      border-radius: 50%;
+      width: 0.7rem;
+      height: 0.7rem;
+      margin: 0 1rem 0 0;
+    }
+  
+   
+  
+
+}
