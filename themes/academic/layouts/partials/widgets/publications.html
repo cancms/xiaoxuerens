@@ -10,15 +10,23 @@
   <div class="col-12 col-lg-8">
     {{ with $page.Content }}{{ . }}{{ end }}
 
-    {{ if $page.Params.item }}
-    {{ range $page.Params.item}}
+    {{ if $page.Params.publication_lists }}
+    {{ range $page.Params.publication_lists}}
       <div class="card experience course">
         <div class="card-body">
-          {{- with .publication_url -}}<a href="{{.}}" target="_blank" rel="noopener">{{- end -}}
-          <h4 class="card-title exp-title text-muted my-0">{{.publication_name | markdownify | emojify}}</h4>
+
+            {{- with .org_year -}}
+              <span class="card-subtitle my-0 article-metadata">
+                  [{{- . | markdownify | emojify -}}]
+              </span>
+            {{- end -}}
+
+
+            {{- with .publication_url -}}<a href="{{.}}" target="_blank" rel="noopener">{{- end -}}
+          <h4 class="card-title exp-title text-muted my-0">{{.title | markdownify | emojify}}</h4>
           {{- with .publication_url -}}</a>{{- end -}}
 
-            {{- with .writer_names -}}
+            {{- with .author -}}
               <div class="card-subtitle my-0 article-metadata">
                   {{- . | markdownify | emojify -}}
               </div>
@@ -28,6 +36,15 @@
               {{/*<div class="">{{ . | markdownify | emojify}}</div>*/}}
               <div class="card-subtitle my-0 article-metadata">{{ . | markdownify | emojify}}</div>
           {{- end -}}
+
+
+            {{- if .pdf -}}
+            <div class="btn-links">
+              <a href="{{.pdf}}" target="_blank" rel="noopener" class="btn btn-outline-primary btn-page-header btn-sm">
+              Pdf
+              </a>
+            </div>
+            {{- end -}}
 
         </div>
       </div>
