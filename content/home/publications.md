@@ -27,7 +27,7 @@ publication_lists:
       
   - org_year: APSEC'24
     title: Enhancing Reentrancy Vulnerability Detection and Repair with a Hybrid Model Framework.
-    author: Mengliang Li, **Xiaoxue Ren***, Han Fu, Zhuo Li, Jianling Sun. Distinguished Paper Award
+    author: Mengliang Li, **Xiaoxue Ren**, Han Fu, Zhuo Li, Jianling Sun. **Distinguished Paper Award** 🏆
     organization: The Asia-Pacific Software Engineering Conference . Accepted as a Full Paper.
     pdf:
   - org_year: TSE'24
