@@ -56,7 +56,7 @@
         {{ else if in (slice "http" "https") $scheme }}
           {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
         {{ end }}
-        <li>
+        <li style="list-style-type: none;">
           <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
             <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
           </a>

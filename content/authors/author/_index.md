@@ -52,9 +52,13 @@ social:
   icon_pack: ai
   link: https://scholar.google.com/citations?user=mdoN_woAAAAJ&hl=en
   
-- icon: github
-  icon_pack: fab
-  link: https://github.com/xiaoxuerens
+- icon:  graduation-cap
+  icon_pack: fas
+  link: https://person.zju.edu.cn/xiaoxueREN
+  
+#- icon: fa-graduation-cap
+#  icon_pack: fa-graduation-cap
+#  link: https://github.com/xiaoxuerens
   
 #- icon: linkedin
 #  icon_pack: fab
